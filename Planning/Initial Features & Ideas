@@ -1,0 +1,15 @@
+Art App	
+
+‘Art App’ would Daily Art Challenge that would utilize a random generator
+
+Would accept input from users and suggest them something to draw
+
+Would store users’ (Profile/Log-In feature) artworks on a database
+
+Allow users to ‘like’ other users’ artworks.
+
+Users get ‘points’ for completing art challenges (Drawing suggestions, art quizzes, art contests) – giving users something to work towards.
+
+Allow users to ‘tag’ their artworks with keywords
+
+Suggest artwork based on what the users ‘like’ (Using cookies or caching)	
