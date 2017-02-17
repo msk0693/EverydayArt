@@ -1,0 +1,48 @@
+* {
+  border: 1px solid black;
+  margin:0;
+  padding:0;
+}
+
+header{
+	background-color:#e0e0d1;
+	border-radius:8px;
+}
+
+h1{
+	text-align:left;
+}
+
+#logIn{
+	color:green;
+	text-align:right;
+}
+
+fieldset{
+	margin-right:800px;
+}
+
+body{
+	font-family:papyrus;
+	background-color:silver;
+}
+
+#createMenu{
+	margin:auto;
+	margin-top:75px;
+	width: 100px;
+}
+
+#createButton{
+	margin-left:-50px;
+	background-color:red;
+	color:yellow;
+	border-radius:15px;
+	width:250px;
+	padding:40px;
+}
+
+#createButton:hover{
+	background-color: yellow;
+	color:red;
+}
