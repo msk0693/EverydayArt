@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en US">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="author" content="Justin Reid"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<title>EveryDay Art</title>
+		<link rel="stylesheet" type="text/css" href="EACSS.css"/>
+		<script src="EAScript.js"></script>
+	</head>
+	<body>
+		<header>
+			<h1>EveryDay Art <sup> &trade;</sup></h1>
+			<div id="logIn">
+				<a href="logIn.html" target="_blank" 
+					title="Log-In">Log-In</button>
+				</a>|
+				<a href="register.html" target="_blank" 
+					title="Join EveryDay Art &trade;">
+				Join</a>
+			</div>
+		</header>
+
+			<div id="createMenu">
+				Noun:
+				<input list="nouns" name="nouns" title="Select a noun"/> 
+				<datalist id="nouns">
+				<option value="Landscape"/>
+				<option value="Food"/>
+				<option value="Cars"/>
+				<option value="Person"/>
+				</datalist>
+				
+				Adjective:
+				<input list="adjectives" name="adjectives" title="Select an adjectives"/> 
+				<datalist id="adjectives">
+				<option value="Old"/>
+				<option value="Big"/>
+				<option value="Broken"/>
+				<option value="Beautiful"/>
+				</datalist>
+				
+				Verbs:
+				<input list="verbs" name="verbs" title="Select a verb"/> 
+				<datalist id="verbs">
+				<option value="Moving"/>
+				<option value="Touching"/>
+				<option value="Waving"/>
+				<option value="Reflecting"/>
+				</datalist>
+				<br/>
+				
+				<button id="createButton">Create</button>
+			</div>	
+	</body>
+</html>
