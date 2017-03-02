@@ -1,9 +1,10 @@
 <?php 
 	public class User extends Person {
 		private var $id;
+		private var $userName;
 		private var $rank;
 		private var $score;
-		private var $userName;
+		
 
 		public function __construct($name,
 									$address,
