@@ -1,70 +1,72 @@
 <?php 
-	public class User extends Person {
-		private var $id;
-		private var $userName;
-		private var $rank;
-		private var $score;
+
+public class User extends Person {
+	private $userName;
+	private $rank;
+	private $currentPoints;
+	private $totalPoints;
+	
+
+	public function __construct($id,
+								$name,
+								$address,
+								$phone,
+								$email, 
+								$userName,
+								$rank,
+								$totalPoints,
+								$currentPoints)
+	
+	{
+		
+		$this->userName = $userName;
+		$this->rank = $rank;
+		$this->totalPoints = $totalPoints; 
+		$this->currentPoints = $currentPoints;
 		
 
-		public function __construct($name,
-									$address,
-									$phone,
-									$email,
-									$id,
-									$userName, 
-									$rank, 
-									$score)
-		
-		{
-			$this->id = $id;
-			$this->userName = $userName;
-			$this->rank = $rank;
-			$this->score = $score; 
-			
+		parent::__construct($id, $name, $address, $phone, $email);
 
-			parent::__construct($name, $address, $phone, $email);
+	}
 
-		}
 
-		public function set_id($id) 
-		{ 
-			$this->id = $id;  
- 		}
- 
-   		public function get_id() 
-   		{
-			return $this->id;
-		}
+	public function setUserName($userName)
+	{
+		$this->userName = $userName;
+	}
 
-		public function set_userName($userName)
-		{
-			$this->userName = $userName;
-		}
+	public function getUserName()
+	{
+		return $this->userName;
+	}
 
-		public function get_userName()
-		{
-			return $this->userName;
-		}
+	public function setRank($rank)
+	{
+		$this->rank = $rank;
+	}
 
-		public function set_rank($rank)
-		{
-			$this->rank = $rank;
-		}
+	public function getRank()
+	{
+		return $this->rank;
+	}
 
-		public function get_rank()
-		{
-			return $this->rank;
-		}
+	public function setTotal($totalPoints)
+	{
+		$this->totalPoints = $totalPoints;
+	}
+	public function getTotal()
+	{
+		return $this->totalPoints;
+	}
+	public function setCurrent($currentPoints)
+	{
+		$this->currentPoints = $currentPoints;
+	}
+	public function getCurrent()
+	{
+		return $this->currentPoints;
+	}
 
-		public function set_score($score)
-		{
-			$this->score = $score;
-		}
+} 
 
-		public function get_score()
-		{
-			return $this->score;
-		}
-
-	} 
 ?>
