@@ -8,14 +8,14 @@ public class User extends Person {
 	
 
 	public function __construct($id,
-								$name,
-								$address,
-								$phone,
-								$email, 
-								$userName,
-								$rank,
-								$totalPoints,
-								$currentPoints)
+				    $name,
+				    $address,
+				    $phone,
+				    $email, 		
+				    $userName,	
+				    $rank,		
+				    $totalPoints,				
+				    $currentPoints)
 	
 	{
 		
