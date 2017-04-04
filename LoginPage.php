@@ -36,7 +36,7 @@ EOT;
 	}
 }
 	
-$lp = new LoginPage();
-lp.renderPage();
+LoginPage $lp = new LoginPage();
+$lp->renderPage();
 
 ?>
